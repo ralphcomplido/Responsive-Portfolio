@@ -13,6 +13,7 @@ body {
 
 
 
+
 /* general */
 
 .container {
@@ -52,6 +53,7 @@ h2,
 h3 {
     font-size: 22px;
 }
+
 
 
 
@@ -105,6 +107,7 @@ nav a:first-child {
 
 
 
+
 /* footer */
 
 footer {
@@ -117,6 +120,7 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
 }
+
 
 
 
@@ -155,6 +159,7 @@ h3,
 
 
 
+
 /* main */
 
 #main-container {
@@ -170,6 +175,7 @@ h3,
     background: #fff;
     border: 1px solid #ddd;
 }
+
 
 
 
@@ -219,6 +225,7 @@ h3,
 
 
 
+
 /* contact page */
 
 #contact-form ul {
@@ -259,23 +266,27 @@ input[type=submit] {
     border: 0 none;
 }
 
-    /*media queries*/
-    
+
+/*media queries*/
+
 @media only screen and (max-width: 640px) {
     .sidebar,
     .main-section,
     .work,
     nav,
-    #logo, .auth-image {
+    #logo,
+    .auth-image {
         width: 100%;
         max-width: 768px;
         text-align: center;
     }
 }
 
-    .social {
-        position: center;
-    }
+.social {
+    position: center;
+}
+
+
 }
 
 @media only screen and (min-width: 641px) and (max-width: 768px) {
@@ -291,8 +302,7 @@ input[type=submit] {
     }
 }
 
-@media only screen and (min-width: 768px
-) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
     .container {
         width: 90%;
     }
@@ -300,10 +310,12 @@ input[type=submit] {
     .main-section {
         width: 55%;
     }
+
     .sidebar {
         width: 35%;
     }
 }
+
 
 
 }
