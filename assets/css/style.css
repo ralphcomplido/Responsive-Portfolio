@@ -266,11 +266,12 @@ input[type=submit] {
     .main-section,
     .work,
     nav,
-    #logo {
+    #logo, .auth-image {
         width: 100%;
         max-width: 768px;
         text-align: center;
     }
+}
 
     .social {
         position: center;
